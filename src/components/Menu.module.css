@@ -1,0 +1,16 @@
+.menuList {
+  display: flex;
+}
+
+.listItem {
+  flex: 1;
+  list-style: none;
+  font-size: 18px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.listItem:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
