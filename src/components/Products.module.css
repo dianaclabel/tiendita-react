@@ -1,0 +1,22 @@
+.containerProducts {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.titleProducts {
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (min-width: 888px) {
+  .products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
